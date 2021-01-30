@@ -7,6 +7,7 @@
 //
 
 #import "HXViewController.h"
+#import "UIView+loading.h"
 
 @interface HXViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view showSuccessWithMessage:@"提示成功信息"];
 }
 
 - (void)didReceiveMemoryWarning
