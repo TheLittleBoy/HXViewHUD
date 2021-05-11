@@ -348,15 +348,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HXViewHUD_Example/Pods-HXViewHUD_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HXViewHUD/HXViewHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HXViewHUD.framework",
 			);

@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'HXViewHUD/Classes/**/*'
   
   s.resource_bundles = {
-   'HXViewHUD' => ['HXViewHUD/Assets/*.png']
+   'HXViewHUD' => ['HXViewHUD/Assets/*.*']
   }
   
 end
