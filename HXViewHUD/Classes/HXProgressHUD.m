@@ -630,7 +630,7 @@ static const CGFloat HXDefaultDetailsLabelFontSize = 12.f;
              NSString *resourcePath = [mainBundle pathForResource:@"HXViewHUD" ofType:@"bundle"];
              resourceBundle = [NSBundle bundleWithPath:resourcePath] ?: mainBundle;
          }
-        
+        self.userInteractionEnabled = YES;
         if (mode == HXProgressHUDModeSuccess) {
             _mode = HXProgressHUDModeCustomView;
             UIImage* successImage = [UIImage imageNamed:@"success" inBundle:resourceBundle compatibleWithTraitCollection:nil];

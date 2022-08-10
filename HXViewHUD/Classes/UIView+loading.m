@@ -29,23 +29,7 @@
 
 - (void)showLoadingWithMessage:(NSString *)message onView:(UIView *)aView hideAfter:(NSTimeInterval)second
 {
-    
-    HXProgressHUD *hud = [HXProgressHUD HUDForView:aView];
-    
-    if (!hud) {
-        hud = [HXProgressHUD showHUDAddedTo:aView animated:YES];
-    }
-    
-    if (message) {
-        hud.label.text = message;
-//        hud.label.font = [UIFont systemFontOfSize:12];
-    }
-    
-    hud.mode = HXProgressHUDModeIndeterminate;
-    
-    if (second > 0) {
-        [hud hideAnimated:YES afterDelay:second];
-    }
+    [self showHUDWithMessage:message onView:aView hideAfter:second hudMode:HXProgressHUDModeIndeterminate completionBlock:nil];
 }
 
 - (void)showTostWithMessage:(NSString *)message
@@ -109,18 +93,22 @@
     
     if (!hud) {
         hud = [HXProgressHUD showHUDAddedTo:aView animated:YES];
+    }else
+    {
+        [hud showAnimated:YES];
     }
     
     hud.completionBlock = completionBlock;
     
-    if (message) {
-        hud.label.text = message;
-        //hud.label.font = [UIFont systemFontOfSize:12];
-        hud.mode = mode;
-        
-        if (mode != HXProgressHUDModeText) {
-            hud.minSize = CGSizeMake(100.f, 100.f);
-        }
+    hud.label.text = message;
+
+    hud.mode = mode;
+    
+    if (mode != HXProgressHUDModeText && mode != HXProgressHUDModeIndeterminate) {
+        hud.minSize = CGSizeMake(100.f, 100.f);
+    }else
+    {
+        hud.minSize = CGSizeZero;
     }
     
     if (second > 0) {

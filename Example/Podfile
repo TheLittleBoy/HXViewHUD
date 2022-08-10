@@ -15,6 +15,7 @@ target 'HXViewHUD_Example' do
 
 #  pod 'WechatOpenSDK'
   
+#  pod 'AlipaySDK-iOS', :podspec => './'
   
   target 'HXViewHUD_Tests' do
     inherit! :search_paths
