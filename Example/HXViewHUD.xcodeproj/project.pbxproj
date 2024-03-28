@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = TheLittleBoy;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = CX9724CS5M;
+						DevelopmentTeam = BYYVCSW9RQ;
 						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
@@ -500,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CX9724CS5M;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BYYVCSW9RQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXViewHUD/HXViewHUD-Prefix.pch";
 				INFOPLIST_FILE = "HXViewHUD/HXViewHUD-Info.plist";
@@ -508,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = developer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer99;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -520,6 +522,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CX9724CS5M;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BYYVCSW9RQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXViewHUD/HXViewHUD-Prefix.pch";
 				INFOPLIST_FILE = "HXViewHUD/HXViewHUD-Info.plist";
@@ -528,6 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = developer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer99;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

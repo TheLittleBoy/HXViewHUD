@@ -9,100 +9,102 @@
 /* Begin PBXBuildFile section */
 		0874CCBEC9EBFA9AE565EAAE3D0E3AA4 /* Pods-HXViewHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 089B83E8B5B013270CD5C4999A482CC8 /* Pods-HXViewHUD_Example-dummy.m */; };
 		29257E2B77D439ADDECADC04F2855C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		52F4EC1848E43C7CBDF6A627E438F9B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447E7E74B93DB1FE14169D3E14C363FE /* Images.xcassets */; };
-		610C3AD24565019A77AB68A2A133CB84 /* HXViewHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE818B0FD102578E23D931C4D02AF44 /* HXViewHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D4B03DEE46BC9B7DD5C08CB4C3429AE /* UIView+loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B76B2E7057269D5E7EF5279DF8B7388 /* UIView+loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D71EECBE7822A0EAF527C0386F48D68 /* HXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 804EE18DFD0B1FAE2A1E09687BA306ED /* HXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90E2F875AC10229BBC2FA0B265A19538 /* HXViewHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F5215A7E4FCE4959DED41FF6A3DD15 /* HXViewHUD-dummy.m */; };
-		A1C8CCB82DA3B5424D9C15FABDA2B217 /* HXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4E8D6386C6EC1A7DB468D32CB6614 /* HXProgressHUD.m */; };
+		34DD1267BDA392A7C42A073B3D1F1586 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F73EC5B37A9EF25DEC934D9204B5E6 /* Images.xcassets */; };
+		45B3C1DA7D51736468AE7E97FC7A2677 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5DA5E239C19A8D17899270D45D4C3AD4 /* PrivacyInfo.xcprivacy */; };
+		610C3AD24565019A77AB68A2A133CB84 /* HXViewHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87A0AED96B8B4308AA72555C5E97A8 /* HXViewHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4B03DEE46BC9B7DD5C08CB4C3429AE /* UIView+loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA4463C3486E7AA645D3A44E8E7256A /* UIView+loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D71EECBE7822A0EAF527C0386F48D68 /* HXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 125E862D3AB8B33EA7DDE4873BBA78B5 /* HXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E2F875AC10229BBC2FA0B265A19538 /* HXViewHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C4D0B661FFE1767BC73B61D2DE8398 /* HXViewHUD-dummy.m */; };
+		A1C8CCB82DA3B5424D9C15FABDA2B217 /* HXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F4116DFB29382F36FEFF2A5090E96 /* HXProgressHUD.m */; };
 		C30DAB220FDA1C4096D1F619628367FB /* Pods-HXViewHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E209994B2EDAC6F9BB2F88E169501480 /* Pods-HXViewHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C71E3B733BB93EF6D4331D24C23A8ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C9F06CFA235BB91B30BB5B36D23AC4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DF379226991CEBC7F5019AC3873E1277 /* Pods-HXViewHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B998CFDECC0DC455154DFF8373ADDB /* Pods-HXViewHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E08A0D97EE2786D2A1D1BB59A4724499 /* Pods-HXViewHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C496DE9426C274E012D3086610608B /* Pods-HXViewHUD_Tests-dummy.m */; };
 		E3DC857EAC8DBDBC1393AE0A0B0EE08D /* HXViewHUD-HXViewHUD in Resources */ = {isa = PBXBuildFile; fileRef = BC386BC34BBBA30DB4FD4493DE4ADBD1 /* HXViewHUD-HXViewHUD */; };
-		E5495FF353C2D19B3761C9A7F7C885CA /* UIView+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB4A2209104E4A87D440D55979BF53A /* UIView+loading.m */; };
+		E5495FF353C2D19B3761C9A7F7C885CA /* UIView+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E4762387A8ABCB6412A1F935A0506 /* UIView+loading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3190A710C82344188F34C3FEE576C8D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1816CA90910C1121B7ADDC245F6D5E3E;
-			remoteInfo = "HXViewHUD-HXViewHUD";
-		};
-		6E00AE82B72076CFDE357E05362A0992 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F65C736D6E962B96B48C13619DDB90C9;
-			remoteInfo = "Pods-HXViewHUD_Example";
-		};
-		EF24FA72071A32A57574AF4D0F12E53F /* PBXContainerItemProxy */ = {
+		39EF7322D44D122E0646ECBA7748705C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FA0C8359C1770F76563A3815D8D0980;
 			remoteInfo = HXViewHUD;
 		};
+		93789F0C5A0A0686A4CF7A9618B284CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65C736D6E962B96B48C13619DDB90C9;
+			remoteInfo = "Pods-HXViewHUD_Example";
+		};
+		B5D1261EB2905BA881D79C7746B303FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1816CA90910C1121B7ADDC245F6D5E3E;
+			remoteInfo = "HXViewHUD-HXViewHUD";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076BE085563745CEB4D761FE7978C2F6 /* HXViewHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXViewHUD-Info.plist"; sourceTree = "<group>"; };
 		089B83E8B5B013270CD5C4999A482CC8 /* Pods-HXViewHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXViewHUD_Example-dummy.m"; sourceTree = "<group>"; };
+		08C4D0B661FFE1767BC73B61D2DE8398 /* HXViewHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXViewHUD-dummy.m"; sourceTree = "<group>"; };
 		12377E0B0693F87423BD38CA532D38F0 /* Pods-HXViewHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXViewHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		125E862D3AB8B33EA7DDE4873BBA78B5 /* HXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXProgressHUD.h; path = HXViewHUD/Classes/HXProgressHUD.h; sourceTree = "<group>"; };
 		29B69515B4F7E8E13440C428C2B9DC88 /* Pods-HXViewHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXViewHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A07BC3CE9B28AD1C7A41052CF6366C9 /* Pods-HXViewHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXViewHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D6DB56DF0FBDBCBDC9CE651AC12D6BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2F55000AF80402EB1D91D50CD6C1B974 /* Pods-HXViewHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXViewHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3860709950DB78900F0DB19C16BD41DD /* HXViewHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXViewHUD.release.xcconfig; sourceTree = "<group>"; };
+		3A9174DB50B69A969927DE23851E0344 /* HXViewHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXViewHUD-prefix.pch"; sourceTree = "<group>"; };
+		3C3E4762387A8ABCB6412A1F935A0506 /* UIView+loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+loading.m"; path = "HXViewHUD/Classes/UIView+loading.m"; sourceTree = "<group>"; };
 		3D847C0E292B060A567D0854D13DA740 /* Pods-HXViewHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXViewHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		446F3DD35B60BD82E25EA86D6C89ACE7 /* HXViewHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXViewHUD.modulemap; sourceTree = "<group>"; };
-		447E7E74B93DB1FE14169D3E14C363FE /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HXViewHUD/Assets/Images.xcassets; sourceTree = "<group>"; };
 		5AE7D2D22010DED040198932B001EFA7 /* Pods-HXViewHUD_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HXViewHUD_Tests"; path = Pods_HXViewHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D082660FEF8D7B3E0F507B783BECFF /* HXViewHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXViewHUD-prefix.pch"; sourceTree = "<group>"; };
-		69F5215A7E4FCE4959DED41FF6A3DD15 /* HXViewHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXViewHUD-dummy.m"; sourceTree = "<group>"; };
+		5B87A0AED96B8B4308AA72555C5E97A8 /* HXViewHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXViewHUD-umbrella.h"; sourceTree = "<group>"; };
+		5DA4463C3486E7AA645D3A44E8E7256A /* UIView+loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+loading.h"; path = "HXViewHUD/Classes/UIView+loading.h"; sourceTree = "<group>"; };
+		5DA5E239C19A8D17899270D45D4C3AD4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6B5F4116DFB29382F36FEFF2A5090E96 /* HXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXProgressHUD.m; path = HXViewHUD/Classes/HXProgressHUD.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73B85A8A81FCA9C1F34D4B8A1F3562A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		79098741F66F3AB9BB4C7D0EE195854B /* HXViewHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXViewHUD.debug.xcconfig; sourceTree = "<group>"; };
 		7B10D1A730B88215E6FDF341C214A4FC /* Pods-HXViewHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXViewHUD_Example-Info.plist"; sourceTree = "<group>"; };
-		804EE18DFD0B1FAE2A1E09687BA306ED /* HXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXProgressHUD.h; path = HXViewHUD/Classes/HXProgressHUD.h; sourceTree = "<group>"; };
 		82C496DE9426C274E012D3086610608B /* Pods-HXViewHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXViewHUD_Tests-dummy.m"; sourceTree = "<group>"; };
 		82D2A8EF3F1F93B43D9359EE0DB3E3CF /* Pods-HXViewHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXViewHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8AC4E8D6386C6EC1A7DB468D32CB6614 /* HXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXProgressHUD.m; path = HXViewHUD/Classes/HXProgressHUD.m; sourceTree = "<group>"; };
-		8BE818B0FD102578E23D931C4D02AF44 /* HXViewHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXViewHUD-umbrella.h"; sourceTree = "<group>"; };
+		8975BC06B5E8AAEAACE9908DE12CABD4 /* HXViewHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXViewHUD.modulemap; sourceTree = "<group>"; };
 		9981CC8F0289D352D135B9987EB93890 /* Pods-HXViewHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXViewHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B67137D766EDB3E0B15A8A820F07CCA /* Pods-HXViewHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXViewHUD_Tests-Info.plist"; sourceTree = "<group>"; };
-		9B76B2E7057269D5E7EF5279DF8B7388 /* UIView+loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+loading.h"; path = "HXViewHUD/Classes/UIView+loading.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DFF74818567D289536F915CB7C9FFD6 /* HXViewHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HXViewHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF9D633893F6B792F843981B41A881F /* HXViewHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HXViewHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C1ABA01C17A960642A20B06D579046 /* ResourceBundle-HXViewHUD-HXViewHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HXViewHUD-HXViewHUD-Info.plist"; sourceTree = "<group>"; };
+		AB989AB7168FA49984DBE208BB7E3FC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B5B936D8C7FC87C8F187F8A0310315AA /* Pods-HXViewHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXViewHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6A11A0B87ECAF1D765D8FAC9EC6C5DA /* Pods-HXViewHUD_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HXViewHUD_Example"; path = Pods_HXViewHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC386BC34BBBA30DB4FD4493DE4ADBD1 /* HXViewHUD-HXViewHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HXViewHUD-HXViewHUD"; path = HXViewHUD.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C072271F21345B8B05510BE684DC287A /* Pods-HXViewHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXViewHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C182362FFEA4A69402D939FA0B6071CF /* ResourceBundle-HXViewHUD-HXViewHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HXViewHUD-HXViewHUD-Info.plist"; sourceTree = "<group>"; };
 		C2B998CFDECC0DC455154DFF8373ADDB /* Pods-HXViewHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXViewHUD_Example-umbrella.h"; sourceTree = "<group>"; };
 		C41180B62B7B37EB492B54EE6E6A82AE /* HXViewHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXViewHUD; path = HXViewHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C84F10AE3E1965C89A16B977FBC211F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C5F73EC5B37A9EF25DEC934D9204B5E6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD586C9FED845245CBC5868000992EE0 /* Pods-HXViewHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXViewHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFB4A2209104E4A87D440D55979BF53A /* UIView+loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+loading.m"; path = "HXViewHUD/Classes/UIView+loading.m"; sourceTree = "<group>"; };
 		E12D1BB2C41AB266F3D03BA9802910D4 /* Pods-HXViewHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXViewHUD_Example.modulemap"; sourceTree = "<group>"; };
 		E209994B2EDAC6F9BB2F88E169501480 /* Pods-HXViewHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXViewHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F795B1F7F53A7B9485E7AB24C1E8A86E /* HXViewHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXViewHUD.release.xcconfig; sourceTree = "<group>"; };
-		F813BF5189ABA27B6293934751AC0989 /* HXViewHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXViewHUD-Info.plist"; sourceTree = "<group>"; };
-		FE3FA230E577B24951FE1847E015EEFD /* HXViewHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXViewHUD.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		621B5AF46A50CE0A4613F26EF0983B65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DC381E5FDEB9A85DB03C9C5D4EE2A97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9F06CFA235BB91B30BB5B36D23AC4C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B98C854624DA8360BEFBFC42E1E4249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,29 +127,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35DE251282A6EBE9D8B5F275A5F2955E /* HXViewHUD */ = {
+		0510AD59E26DFBE062652D9A0E06E18F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				804EE18DFD0B1FAE2A1E09687BA306ED /* HXProgressHUD.h */,
-				8AC4E8D6386C6EC1A7DB468D32CB6614 /* HXProgressHUD.m */,
-				447E7E74B93DB1FE14169D3E14C363FE /* Images.xcassets */,
-				9B76B2E7057269D5E7EF5279DF8B7388 /* UIView+loading.h */,
-				DFB4A2209104E4A87D440D55979BF53A /* UIView+loading.m */,
-				3E131D01BEA2C74DE774B8E276DE45D5 /* Pod */,
-				7C1E419735F0DB6A28E6D5AC3979111A /* Support Files */,
+				DE058DD0C5FEB9BE04218211F0826E88 /* HXViewHUD */,
 			);
-			name = HXViewHUD;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3E131D01BEA2C74DE774B8E276DE45D5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9DFF74818567D289536F915CB7C9FFD6 /* HXViewHUD.podspec */,
-				73B85A8A81FCA9C1F34D4B8A1F3562A9 /* LICENSE */,
-				C84F10AE3E1965C89A16B977FBC211F1 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4D35AB619DF7E439184D14E8DA8B4C1E /* Pods-HXViewHUD_Example */ = {
@@ -175,28 +160,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6D9C1296880FCC773009ABE341AECFA1 /* Development Pods */ = {
+		5C331C4B584D805E0F8A3F1D8896C780 /* HXViewHUD */ = {
 			isa = PBXGroup;
 			children = (
-				35DE251282A6EBE9D8B5F275A5F2955E /* HXViewHUD */,
+				71413AB212E9D6C7FE1A1AE9D994546F /* Assets */,
 			);
-			name = "Development Pods";
+			name = HXViewHUD;
+			path = HXViewHUD;
 			sourceTree = "<group>";
 		};
-		7C1E419735F0DB6A28E6D5AC3979111A /* Support Files */ = {
+		71413AB212E9D6C7FE1A1AE9D994546F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				446F3DD35B60BD82E25EA86D6C89ACE7 /* HXViewHUD.modulemap */,
-				69F5215A7E4FCE4959DED41FF6A3DD15 /* HXViewHUD-dummy.m */,
-				F813BF5189ABA27B6293934751AC0989 /* HXViewHUD-Info.plist */,
-				63D082660FEF8D7B3E0F507B783BECFF /* HXViewHUD-prefix.pch */,
-				8BE818B0FD102578E23D931C4D02AF44 /* HXViewHUD-umbrella.h */,
-				FE3FA230E577B24951FE1847E015EEFD /* HXViewHUD.debug.xcconfig */,
-				F795B1F7F53A7B9485E7AB24C1E8A86E /* HXViewHUD.release.xcconfig */,
-				C182362FFEA4A69402D939FA0B6071CF /* ResourceBundle-HXViewHUD-HXViewHUD-Info.plist */,
+				C5F73EC5B37A9EF25DEC934D9204B5E6 /* Images.xcassets */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HXViewHUD";
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AA2BCA88216346A7F09A2574766EBC27 /* privacy */ = {
+			isa = PBXGroup;
+			children = (
+				5DA5E239C19A8D17899270D45D4C3AD4 /* PrivacyInfo.xcprivacy */,
+			);
+			name = privacy;
+			path = privacy;
 			sourceTree = "<group>";
 		};
 		B090A9C7087D82024267D7A5C1551B38 /* Pods-HXViewHUD_Tests */ = {
@@ -219,7 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6D9C1296880FCC773009ABE341AECFA1 /* Development Pods */,
+				0510AD59E26DFBE062652D9A0E06E18F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EFF6D6F156DC187634E3F9F6FD79C9B9 /* Products */,
 				E0BA0C6A77845F1D81C1A2C52BCE73B7 /* Targets Support Files */,
@@ -232,6 +220,32 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC36E8B95CE2AE8E35388BCBD0D7EDAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FF9D633893F6B792F843981B41A881F /* HXViewHUD.podspec */,
+				AB989AB7168FA49984DBE208BB7E3FC5 /* LICENSE */,
+				2D6DB56DF0FBDBCBDC9CE651AC12D6BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DE058DD0C5FEB9BE04218211F0826E88 /* HXViewHUD */ = {
+			isa = PBXGroup;
+			children = (
+				125E862D3AB8B33EA7DDE4873BBA78B5 /* HXProgressHUD.h */,
+				6B5F4116DFB29382F36FEFF2A5090E96 /* HXProgressHUD.m */,
+				5DA4463C3486E7AA645D3A44E8E7256A /* UIView+loading.h */,
+				3C3E4762387A8ABCB6412A1F935A0506 /* UIView+loading.m */,
+				5C331C4B584D805E0F8A3F1D8896C780 /* HXViewHUD */,
+				DC36E8B95CE2AE8E35388BCBD0D7EDAA /* Pod */,
+				AA2BCA88216346A7F09A2574766EBC27 /* privacy */,
+				FFA37A817E8E58A32164824C29953FBD /* Support Files */,
+			);
+			name = HXViewHUD;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E0BA0C6A77845F1D81C1A2C52BCE73B7 /* Targets Support Files */ = {
@@ -252,6 +266,22 @@
 				5AE7D2D22010DED040198932B001EFA7 /* Pods-HXViewHUD_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA37A817E8E58A32164824C29953FBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8975BC06B5E8AAEAACE9908DE12CABD4 /* HXViewHUD.modulemap */,
+				08C4D0B661FFE1767BC73B61D2DE8398 /* HXViewHUD-dummy.m */,
+				076BE085563745CEB4D761FE7978C2F6 /* HXViewHUD-Info.plist */,
+				3A9174DB50B69A969927DE23851E0344 /* HXViewHUD-prefix.pch */,
+				5B87A0AED96B8B4308AA72555C5E97A8 /* HXViewHUD-umbrella.h */,
+				79098741F66F3AB9BB4C7D0EE195854B /* HXViewHUD.debug.xcconfig */,
+				3860709950DB78900F0DB19C16BD41DD /* HXViewHUD.release.xcconfig */,
+				A2C1ABA01C17A960642A20B06D579046 /* ResourceBundle-HXViewHUD-HXViewHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXViewHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +318,11 @@
 /* Begin PBXNativeTarget section */
 		1816CA90910C1121B7ADDC245F6D5E3E /* HXViewHUD-HXViewHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4510097D09600ECD910AE6A05E2E9F60 /* Build configuration list for PBXNativeTarget "HXViewHUD-HXViewHUD" */;
+			buildConfigurationList = 9518954D00390AA4550B48B897BE3DE5 /* Build configuration list for PBXNativeTarget "HXViewHUD-HXViewHUD" */;
 			buildPhases = (
-				075981516F15B29679616F39C491376B /* Sources */,
-				621B5AF46A50CE0A4613F26EF0983B65 /* Frameworks */,
-				8C04B098CB2306906515ABD2DA31791E /* Resources */,
+				83B8FEA16A4064BCDD693070B1EFBDC9 /* Sources */,
+				7B98C854624DA8360BEFBFC42E1E4249 /* Frameworks */,
+				DCC79274BD079F2B28AC0866F2239CD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -315,7 +345,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B715C36857ECBB510525C2F35ADD71AB /* PBXTargetDependency */,
+				262E95813F4368ED497D26F3E682C11E /* PBXTargetDependency */,
 			);
 			name = "Pods-HXViewHUD_Tests";
 			productName = Pods_HXViewHUD_Tests;
@@ -334,7 +364,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D799AD79B2A5D5A363374DB773F4F561 /* PBXTargetDependency */,
+				F9F2AEA4ED6FA30A029BDC9F59898940 /* PBXTargetDependency */,
 			);
 			name = HXViewHUD;
 			productName = HXViewHUD;
@@ -353,7 +383,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				92B7996E96DCAD9CC146FEF1D0290B4C /* PBXTargetDependency */,
+				788FEF3C660048A97261C7D8B4154D12 /* PBXTargetDependency */,
 			);
 			name = "Pods-HXViewHUD_Example";
 			productName = Pods_HXViewHUD_Example;
@@ -366,8 +396,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -398,18 +428,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C04B098CB2306906515ABD2DA31791E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52F4EC1848E43C7CBDF6A627E438F9B6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D0F0C1E7B0C3D684E23DB76090C0990D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC79274BD079F2B28AC0866F2239CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DD1267BDA392A7C42A073B3D1F1586 /* Images.xcassets in Resources */,
+				45B3C1DA7D51736468AE7E97FC7A2677 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +455,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		075981516F15B29679616F39C491376B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A9C123EC4DC0C160F62D704BBBB6EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +462,13 @@
 				A1C8CCB82DA3B5424D9C15FABDA2B217 /* HXProgressHUD.m in Sources */,
 				90E2F875AC10229BBC2FA0B265A19538 /* HXViewHUD-dummy.m in Sources */,
 				E5495FF353C2D19B3761C9A7F7C885CA /* UIView+loading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B8FEA16A4064BCDD693070B1EFBDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,23 +491,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		92B7996E96DCAD9CC146FEF1D0290B4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HXViewHUD;
-			target = 8FA0C8359C1770F76563A3815D8D0980 /* HXViewHUD */;
-			targetProxy = EF24FA72071A32A57574AF4D0F12E53F /* PBXContainerItemProxy */;
-		};
-		B715C36857ECBB510525C2F35ADD71AB /* PBXTargetDependency */ = {
+		262E95813F4368ED497D26F3E682C11E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HXViewHUD_Example";
 			target = F65C736D6E962B96B48C13619DDB90C9 /* Pods-HXViewHUD_Example */;
-			targetProxy = 6E00AE82B72076CFDE357E05362A0992 /* PBXContainerItemProxy */;
+			targetProxy = 93789F0C5A0A0686A4CF7A9618B284CB /* PBXContainerItemProxy */;
 		};
-		D799AD79B2A5D5A363374DB773F4F561 /* PBXTargetDependency */ = {
+		788FEF3C660048A97261C7D8B4154D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HXViewHUD;
+			target = 8FA0C8359C1770F76563A3815D8D0980 /* HXViewHUD */;
+			targetProxy = 39EF7322D44D122E0646ECBA7748705C /* PBXContainerItemProxy */;
+		};
+		F9F2AEA4ED6FA30A029BDC9F59898940 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HXViewHUD-HXViewHUD";
 			target = 1816CA90910C1121B7ADDC245F6D5E3E /* HXViewHUD-HXViewHUD */;
-			targetProxy = 3190A710C82344188F34C3FEE576C8D1 /* PBXContainerItemProxy */;
+			targetProxy = B5D1261EB2905BA881D79C7746B303FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -516,7 +547,7 @@
 		};
 		14EC6C0A7EDC7460BCEA372A5C449EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F795B1F7F53A7B9485E7AB24C1E8A86E /* HXViewHUD.release.xcconfig */;
+			baseConfigurationReference = 3860709950DB78900F0DB19C16BD41DD /* HXViewHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -544,6 +575,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1C06E6241B0841A4F43F92FF20FDD0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79098741F66F3AB9BB4C7D0EE195854B /* HXViewHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HXViewHUD";
+				IBSC_MODULE = HXViewHUD;
+				INFOPLIST_FILE = "Target Support Files/HXViewHUD/ResourceBundle-HXViewHUD-HXViewHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = HXViewHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -611,10 +659,11 @@
 			};
 			name = Debug;
 		};
-		418206341DE413C46ECAE715A5B6CFEB /* Debug */ = {
+		73913015BED9296C25452C87495048A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE3FA230E577B24951FE1847E015EEFD /* HXViewHUD.debug.xcconfig */;
+			baseConfigurationReference = 3860709950DB78900F0DB19C16BD41DD /* HXViewHUD.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HXViewHUD";
 				IBSC_MODULE = HXViewHUD;
 				INFOPLIST_FILE = "Target Support Files/HXViewHUD/ResourceBundle-HXViewHUD-HXViewHUD-Info.plist";
@@ -625,7 +674,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		90A2FBBCF268567F077FF1CC23D91AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -692,22 +741,6 @@
 			};
 			name = Release;
 		};
-		A3809E112B7BCF014B5EDF19480CDD9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F795B1F7F53A7B9485E7AB24C1E8A86E /* HXViewHUD.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HXViewHUD";
-				IBSC_MODULE = HXViewHUD;
-				INFOPLIST_FILE = "Target Support Files/HXViewHUD/ResourceBundle-HXViewHUD-HXViewHUD-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = HXViewHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		A5BA76589FFDFBF61AE355E3F06C6ACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5B936D8C7FC87C8F187F8A0310315AA /* Pods-HXViewHUD_Tests.debug.xcconfig */;
@@ -742,7 +775,7 @@
 		};
 		BD5D0351E6179844F138DD94E46875B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE3FA230E577B24951FE1847E015EEFD /* HXViewHUD.debug.xcconfig */;
+			baseConfigurationReference = 79098741F66F3AB9BB4C7D0EE195854B /* HXViewHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -844,15 +877,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4510097D09600ECD910AE6A05E2E9F60 /* Build configuration list for PBXNativeTarget "HXViewHUD-HXViewHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				418206341DE413C46ECAE715A5B6CFEB /* Debug */,
-				A3809E112B7BCF014B5EDF19480CDD9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -867,6 +891,15 @@
 			buildConfigurations = (
 				90A2FBBCF268567F077FF1CC23D91AFA /* Debug */,
 				95E0024CC1352B88F9EADA429349870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9518954D00390AA4550B48B897BE3DE5 /* Build configuration list for PBXNativeTarget "HXViewHUD-HXViewHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C06E6241B0841A4F43F92FF20FDD0F9 /* Debug */,
+				73913015BED9296C25452C87495048A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
