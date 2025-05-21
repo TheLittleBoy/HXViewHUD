@@ -138,6 +138,8 @@ static const CGFloat HXDefaultDetailsLabelFontSize = 12.f;
 - (void)showAnimated:(BOOL)animated {
     HXMainThreadAssert();
     [self.minShowTimer invalidate];
+    // Cancel any scheduled hideDelayed: calls
+    [self.hideDelayTimer invalidate];
     self.useAnimation = animated;
     self.finished = NO;
     // If the grace time is set, postpone the HUD display
@@ -283,10 +285,9 @@ static const CGFloat HXDefaultDetailsLabelFontSize = 12.f;
 }
 
 - (void)done {
-    // Cancel any scheduled hideDelayed: calls
-    [self.hideDelayTimer invalidate];
-
     if (self.hasFinished) {
+        // Cancel any scheduled hideDelayed: calls
+        [self.hideDelayTimer invalidate];
         self.alpha = 0.0f;
         if (self.removeFromSuperViewOnHide) {
             [self removeFromSuperview];
