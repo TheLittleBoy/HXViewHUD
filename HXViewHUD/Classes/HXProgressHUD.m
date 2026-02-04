@@ -627,9 +627,15 @@ static const CGFloat HXDefaultDetailsLabelFontSize = 12.f;
         
         static NSBundle *resourceBundle = nil;
          if (!resourceBundle) {
+             
+#if SWIFT_PACKAGE
+             resourceBundle = SWIFTPM_MODULE_BUNDLE;
+#else
+             
              NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
              NSString *resourcePath = [mainBundle pathForResource:@"HXViewHUD" ofType:@"bundle"];
              resourceBundle = [NSBundle bundleWithPath:resourcePath] ?: mainBundle;
+#endif
          }
         self.userInteractionEnabled = YES;
         if (mode == HXProgressHUDModeSuccess) {
